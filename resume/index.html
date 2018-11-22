@@ -1,204 +1,642 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<style>
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-    margin: 0;
-    padding: 0;
+  <head>
+      <meta charset="utf-8" />
+      <title>Brian Cunnie Resumé</title>
+      <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(124, 135, 156); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(82, 139, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(124, 135, 156); border-color: rgb(75, 83, 98); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(75, 83, 98); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(75, 83, 98); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(58, 63, 75); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(49, 54, 63); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); border-image: initial; background-color: rgb(58, 63, 75); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; word-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: scroll; }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { background-color: rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px; }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border-radius: 3px; }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { word-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; background-color: rgb(252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-image: initial; border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.markdown-preview pre.editor-colors { user-select: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item-checkbox { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.markdown-preview ul label { vertical-align: top; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
 }
-body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color: #737373;
-    background-color: white;
-    margin: 10px 13px 10px 13px;
-}
-table {
-	margin: 10px 0 15px 0;
-	border-collapse: collapse;
-}
-td,th {	
-	border: 1px solid #ddd;
-	padding: 3px 10px;
-}
-th {
-	padding: 5px 10px;	
+.line-number.bracket-matcher.bracket-matcher {
+  color: #abb2bf;
+  background-color: #3a3f4b;
 }
 
-a {
-    color: #0069d6;
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
 }
-a:hover {
-    color: #0050a3;
-    text-decoration: none;
+.spell-check-corrections {
+  width: 25em !important;
 }
-a img {
-    border: none;
+
+pre.editor-colors {
+  background-color: #282c34;
+  color: #abb2bf;
 }
-p {
-    margin-bottom: 9px;
+pre.editor-colors .line.cursor-line {
+  background-color: rgba(153, 187, 255, 0.04);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #404040;
-    line-height: 36px;
+pre.editor-colors .invisible {
+  color: #abb2bf;
 }
-h1 {
-    margin-bottom: 18px;
-    font-size: 30px;
+pre.editor-colors .cursor {
+  border-left: 2px solid #528bff;
 }
-h2 {
-    font-size: 24px;
+pre.editor-colors .selection .region {
+  background-color: #3e4451;
 }
-h3 {
-    font-size: 18px;
+pre.editor-colors .bracket-matcher .region {
+  border-bottom: 1px solid #528bff;
+  box-sizing: border-box;
 }
-h4 {
-    font-size: 16px;
+pre.editor-colors .invisible-character {
+  color: rgba(171, 178, 191, 0.15);
 }
-h5 {
-    font-size: 14px;
+pre.editor-colors .indent-guide {
+  color: rgba(171, 178, 191, 0.15);
 }
-h6 {
-    font-size: 13px;
+pre.editor-colors .wrap-guide {
+  background-color: rgba(171, 178, 191, 0.15);
 }
-hr {
-    margin: 0 0 19px;
-    border: 0;
-    border-bottom: 1px solid #ccc;
+pre.editor-colors .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 139, 255, 0.24);
+  transition: border-color 0.4s;
 }
-blockquote {
-    padding: 13px 13px 21px 15px;
-    margin-bottom: 18px;
-    font-family:georgia,serif;
-    font-style: italic;
+pre.editor-colors .find-result .region.region.region {
+  border: 2px solid transparent;
 }
-blockquote:before {
-    content:"\201C";
-    font-size:40px;
-    margin-left:-10px;
-    font-family:georgia,serif;
-    color:#eee;
+pre.editor-colors .current-result .region.region.region {
+  border: 2px solid #528bff;
+  transition-duration: .1s;
 }
-blockquote p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 18px;
-    margin-bottom: 0;
-    font-style: italic;
+pre.editor-colors .gutter .line-number {
+  color: #636d83;
+  -webkit-font-smoothing: antialiased;
 }
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
+pre.editor-colors .gutter .line-number.cursor-line {
+  color: #abb2bf;
+  background-color: #3a3f4b;
 }
-code {
-    background-color: #fee9cc;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+pre.editor-colors .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
 }
-pre {
-    display: block;
-    padding: 14px;
-    margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+pre.editor-colors .gutter .line-number .icon-right {
+  color: #abb2bf;
 }
-pre code {
-    background-color: #fff;
-    color:#737373;
-    font-size: 11px;
-    padding: 0;
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
 }
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(224, 82, 82, 0.5);
+  pointer-events: none;
 }
-* {
-	-webkit-print-color-adjust: exact;
+pre.editor-colors .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+pre.editor-colors .fold-marker:after {
+  color: #abb2bf;
 }
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:10px auto;
-    }
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
 }
-@media print {
-	body,code,pre code,h1,h2,h3,h4,h5,h6 {
-		color: black;
-	}
-	table, pre {
-		page-break-inside: avoid;
-	}
+.syntax--comment .syntax--markup.syntax--link {
+  color: #5c6370;
+}
+.syntax--entity.syntax--name.syntax--type {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #98c379;
+}
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--control {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--operator {
+  color: #abb2bf;
+}
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #61afef;
+}
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #d19a66;
+}
+.syntax--storage {
+  color: #c678dd;
+}
+.syntax--storage.syntax--type.syntax--annotation,
+.syntax--storage.syntax--type.syntax--primitive {
+  color: #c678dd;
+}
+.syntax--storage.syntax--modifier.syntax--package,
+.syntax--storage.syntax--modifier.syntax--import {
+  color: #abb2bf;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--variable {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--constant.syntax--other.syntax--color {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--other.syntax--symbol {
+  color: #56b6c2;
+}
+.syntax--variable {
+  color: #e06c75;
+}
+.syntax--variable.syntax--interpolation {
+  color: #be5046;
+}
+.syntax--variable.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string > .syntax--source,
+.syntax--string .syntax--embedded {
+  color: #abb2bf;
+}
+.syntax--string.syntax--regexp {
+  color: #56b6c2;
+}
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded {
+  color: #e5c07b;
+}
+.syntax--string.syntax--other.syntax--link {
+  color: #e06c75;
+}
+.syntax--punctuation.syntax--definition.syntax--comment {
+  color: #5c6370;
+}
+.syntax--punctuation.syntax--definition.syntax--method-parameters,
+.syntax--punctuation.syntax--definition.syntax--function-parameters,
+.syntax--punctuation.syntax--definition.syntax--parameters,
+.syntax--punctuation.syntax--definition.syntax--separator,
+.syntax--punctuation.syntax--definition.syntax--seperator,
+.syntax--punctuation.syntax--definition.syntax--array {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--definition.syntax--heading,
+.syntax--punctuation.syntax--definition.syntax--identity {
+  color: #61afef;
+}
+.syntax--punctuation.syntax--definition.syntax--bold {
+  color: #e5c07b;
+  font-weight: bold;
+}
+.syntax--punctuation.syntax--definition.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--punctuation.syntax--section.syntax--embedded {
+  color: #be5046;
+}
+.syntax--punctuation.syntax--section.syntax--method,
+.syntax--punctuation.syntax--section.syntax--class,
+.syntax--punctuation.syntax--section.syntax--inner-class {
+  color: #abb2bf;
+}
+.syntax--support.syntax--class {
+  color: #e5c07b;
+}
+.syntax--support.syntax--type {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function.syntax--any-method {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--name.syntax--section {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #d19a66;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #61afef;
+}
+.syntax--meta.syntax--class {
+  color: #e5c07b;
+}
+.syntax--meta.syntax--class.syntax--body {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--method-call,
+.syntax--meta.syntax--method {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--definition.syntax--variable {
+  color: #e06c75;
+}
+.syntax--meta.syntax--link {
+  color: #d19a66;
+}
+.syntax--meta.syntax--require {
+  color: #61afef;
+}
+.syntax--meta.syntax--selector {
+  color: #c678dd;
+}
+.syntax--meta.syntax--separator {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--tag {
+  color: #abb2bf;
+}
+.syntax--underline {
+  text-decoration: underline;
+}
+.syntax--none {
+  color: #abb2bf;
+}
+.syntax--invalid.syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--invalid.syntax--illegal {
+  color: white !important;
+  background-color: #e05252 !important;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  color: #61afef;
+}
+.syntax--markup.syntax--link {
+  color: #56b6c2;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--quote {
+  color: #d19a66;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--source.syntax--c .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cpp .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cs .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--css .syntax--property-name,
+.syntax--source.syntax--css .syntax--property-value {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--property-name.syntax--support,
+.syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--elixir .syntax--source.syntax--embedded.syntax--source {
+  color: #abb2bf;
+}
+.syntax--source.syntax--elixir .syntax--constant.syntax--language,
+.syntax--source.syntax--elixir .syntax--constant.syntax--numeric,
+.syntax--source.syntax--elixir .syntax--constant.syntax--definition {
+  color: #61afef;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--definition,
+.syntax--source.syntax--elixir .syntax--variable.syntax--anonymous {
+  color: #c678dd;
+}
+.syntax--source.syntax--elixir .syntax--parameter.syntax--variable.syntax--function {
+  color: #d19a66;
+  font-style: italic;
+}
+.syntax--source.syntax--elixir .syntax--quoted {
+  color: #98c379;
+}
+.syntax--source.syntax--elixir .syntax--keyword.syntax--special-method,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--section,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--source.syntax--empty {
+  color: #e06c75;
+}
+.syntax--source.syntax--elixir .syntax--readwrite.syntax--module .syntax--punctuation {
+  color: #e06c75;
+}
+.syntax--source.syntax--elixir .syntax--regexp.syntax--section,
+.syntax--source.syntax--elixir .syntax--regexp.syntax--string {
+  color: #be5046;
+}
+.syntax--source.syntax--elixir .syntax--separator,
+.syntax--source.syntax--elixir .syntax--keyword.syntax--operator {
+  color: #d19a66;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--constant {
+  color: #e5c07b;
+}
+.syntax--source.syntax--elixir .syntax--array,
+.syntax--source.syntax--elixir .syntax--scope,
+.syntax--source.syntax--elixir .syntax--section {
+  color: #828997;
+}
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+  color: #61afef;
+}
+.syntax--source.syntax--go .syntax--storage.syntax--type.syntax--string {
+  color: #c678dd;
+}
+.syntax--source.syntax--ini .syntax--keyword.syntax--other.syntax--definition.syntax--ini {
+  color: #e06c75;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--modifier.syntax--import {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--type {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--keyword.syntax--operator.syntax--instanceof {
+  color: #c678dd;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair {
+  color: #e06c75;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair > .syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--in,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--of,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--new,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--void {
+  color: #c678dd;
+}
+.syntax--source.syntax--ts .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--flow .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--constant.syntax--language.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--constant.syntax--language.syntax--json {
+  color: #56b6c2;
+}
+.syntax--ng.syntax--interpolation {
+  color: #e06c75;
+}
+.syntax--ng.syntax--interpolation.syntax--begin,
+.syntax--ng.syntax--interpolation.syntax--end {
+  color: #61afef;
+}
+.syntax--ng.syntax--interpolation .syntax--function {
+  color: #e06c75;
+}
+.syntax--ng.syntax--interpolation .syntax--function.syntax--begin,
+.syntax--ng.syntax--interpolation .syntax--function.syntax--end {
+  color: #61afef;
+}
+.syntax--ng.syntax--interpolation .syntax--bool {
+  color: #d19a66;
+}
+.syntax--ng.syntax--interpolation .syntax--bracket {
+  color: #abb2bf;
+}
+.syntax--ng.syntax--pipe,
+.syntax--ng.syntax--operator {
+  color: #abb2bf;
+}
+.syntax--ng.syntax--tag {
+  color: #56b6c2;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--attribute-name {
+  color: #e5c07b;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--string {
+  color: #c678dd;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--string.syntax--begin,
+.syntax--ng.syntax--attribute-with-value .syntax--string.syntax--end {
+  color: #abb2bf;
+}
+.syntax--source.syntax--ruby .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
+  color: inherit;
+}
+.syntax--source.syntax--php .syntax--class.syntax--bracket {
+  color: #abb2bf;
+}
+.syntax--source.syntax--python .syntax--keyword.syntax--operator.syntax--logical.syntax--python {
+  color: #c678dd;
+}
+.syntax--source.syntax--python .syntax--variable.syntax--parameter {
+  color: #d19a66;
 }
 </style>
-<title>Objective</title>
+  </head>
+  <body class='markdown-preview' data-use-github-style><h2 align="center">Brian Cunnie</h2>
 
-</head>
-<body>
-<h2 style='text-align: center'>Brian Cunnie</h2>
+<h4 align="center">Software Developer</h4>
 
+<p align="center">
+1711 Washington St. Apt 8<br>
+San Francisco, CA  94109<br>
+cell: 650.968.6262<br>
+<a href="mailto:brian.cunnie@gmail.com">brian.cunnie@gmail.com</a>
+</p>
 
-<p style="text-align:center;"> 1711 Washington St. Apt 8<br />San Francisco, CA  94109</p>
-
-<p style="text-align:center;"> cell: 650.968.6262<br />brian.cunnie@gmail.com</p>
-
-<h3>Objective</h3>
-
-<p>A four-day workweek sysadmin/developer position in the San Francisco Bay Area, one accessible by public transportation.</p>
-
-<h3>Skills</h3>
-
-<p><strong>Operating Systems</strong>: OS X, ESXi, Linux (Ubuntu, Red Hat), FreeBSD, MS Windows (7, Vista, 2008 Server, 2003 Server)</p>
-
-<p><strong>Programming Languages</strong>: Ruby, Python, Perl(/Tk), C, C++, PHP, APL, Assembler</p>
-
-<p><strong>Scripting, Declarative Languages, and Tools</strong>: git, bash, RubyMine, Chef, CSS, HTML, Jenkins, ZFS, MySQL, DD-WRT, svn (subversion), OpenVPN (+OATH TOTP), Google Apps, NetApp, VMWare (Fusion, vCenter Server)</p>
-
-<p><strong>Network Protocols &amp; Services</strong>: TCP/IP (static routes, subnet masks, ping, traceroute, tcpdump/wireshark), NFS (servers, clients, automount/amd/autofs, tuning), DNS/bind/named (SOA, NS, A, MX, PTR, CNAME), DHCP, OpenLDAP 2.x (slapd), Sendmail (8.12+, m4, domain masquerading, etc.), Apache webserver (1.3+, 2.x, virtual nameservers, SSL, CGI), pop3 &amp; imap (qpopper, cyrus-imapd), NIS (master server, clients), Samba 3, SquirrelMail, firewalls (FreeBSD (pf), Linux (iptables))</p>
-
-<h3>Experience</h3>
-
-<p><strong>Pivot, <a href="http://pivotallabs.com/">Pivotal Labs</a>, San Francisco, CA<br />
+<h3 id="objective">Objective</h3>
+<p><strong>Not currently looking</strong>, but if I were, it would be for a four-day workweek
+software developer position in the San Francisco Bay Area, one accessible by
+public transportation, with pair programming and test driven development (TDD).</p>
+<h3 id="skills">Skills</h3>
+<p><em>Programming Languages (Test Frameworks)</em>: Golang (Ginkgo), Ruby (RSpec), Python
+(unittest), Javascript/ReactJS (Jasmine, Jest), Java, bash, Perl, C, C++, APL,
+Assembler</p>
+<p><em>Tools and Declarative Languages</em>: Cloud Foundry CLI, BOSH, git, JetBrains's
+IDEs (Goland, RubyMine, WebStorm, PyCharm), Android Studio, CSS, HTML, Concourse
+CI, ZFS, SQL, svn</p>
+<p><em>Operating System and Infrastructures-as-a-Service (IaaSes)</em>: macOS, Linux,
+FreeBSD, ESXi (vSphere), FreeBSD, MS Windows, Amazon AWS, Microsoft Azure,
+Google Cloud Platform (GCP), VMware vSphere</p>
+<p><em>Network Protocols &amp; Services</em>: TCP/IP (routing, DHCP, IPv6, NDP, firewalls
+(iptables and pf)), DNS (BIND, named, djbdns, PowerDNS), email (Sendmail, qmail,
+Postfix), HTTP servers (Apache, nginx)</p>
+<h3 id="experience">Experience</h3>
+<p><strong>Software Engineer, <a href="https://pivotal.io/">Pivotal</a>, San Francisco, CA<br>
 6/11 to present</strong></p>
-
 <ul>
-<li>Maintained vSphere environments (vCenter (5.x) and ESXi (5.x)) used by the development team (VCE Vblock 340, 12 &times; Cisco C220 M3, 5 &times; Dell R720 located in German colo)</li>
-<li>Helped write the tooling that tested the final release of the Cloud Foundry software (Ruby)</li>
-<li>Architected and implemented an OS X-based VPN solution for all Pivotal offices using single sign-on (i.e. Open Directory (OpenLDAP))</li>
-<li>Used Chef to create/update a set of recipes to build an OS X workstation to suit the developers' needs (an open source project at GitHub (<a href="https://github.com/pivotal-sprout">1</a>))</li>
+<li>PAS NSX-T: built automated test infrastructure to test interoperability
+between Pivotal's cloud offering (PAS) and VMware's software-defined network
+(NSX-T), addressed issues with appropriate organizations</li>
+<li>Cloud Operations: maintained Pivotal Web Services (PWS), Pivotal's
+public-facing Cloud Foundry. Deployed updates several times a week, addressed
+GDPR compliance, and diagnosed, remedied, and documented outages</li>
+<li>Operations Manager: developed and maintained Operations Manager, a Ruby on
+Rails application which acts as a front end to Pivotal's commercial Cloud
+Foundry and Kubernetes offerings</li>
+<li>BOSH CPI: maintained the Ruby-based Cloud Provider Interface (CPI,interface
+between BOSH and IaaS). Wrote the underlying API calls for AWS and vSphere.
+(Ruby)</li>
+<li>BOSH: maintained BOSH, a virtual machine (VM) orchestrator (Ruby)</li>
+<li>Release Engineering: wrote the tooling that tested the each release of
+the Pivotal Cloud Foundry software (Ruby)</li>
+<li>Toolsmiths: maintained vSphere environments used by the development teams</li>
 </ul>
-
-
-<p><strong>Systems Administrator, <a href="http://www.ardatech.com/">Arda Technologies</a> (acquired by Google), Mountain View, CA<br />
+<p><strong>Systems Administrator, Arda Technologies (acquired by
+<a href="https://www.google.com/">Google</a>), Mountain View, CA<br>
 12/07 to 6/11</strong></p>
-
 <p>Provided computer support for an IC Design Startup.</p>
-
 <ul>
-<li>Managed the following machines:
-
-<ul>
+<li>Managed the following machines:<ul>
 <li>35 Linux machines (mostly RHEL5, one RHEL3, two Fedora (12,13)),</li>
 <li>20 Windows machines (mostly laptops, Windows 7, Vista),</li>
 <li>3 FreeBSD machines (2 firewalls, 1 backup),</li>
@@ -213,101 +651,110 @@ sup {
 <li>Hand-crafted two iterations of the corporate website (using XHTML, PHP, and CSS)</li>
 <li>Troubleshot and tuned as needed. Spec'ed and purchased equipment as needed</li>
 </ul>
-
-
-<p><strong>Systems Administrator, <a href="http://www.aeluros.com/">Aeluros</a> (acquired by Broadcom), Mountain View, CA<br />
+<p><strong>Systems Administrator, Aeluros (acquired by
+<a href="https://www.broadcom.com/">Broadcom</a>), Mountain View, CA<br>
 3/02 to 12/07</strong></p>
-
 <p>Provided computer support for an IC Design Startup.</p>
-
 <ul>
-<li>Managed the following machines:
-
-<ul>
-<li>100 Linux machines (mostly 3 main cookie-cutter variations (RHEL4, RHEL5, Fedora 7)),</li>
+<li>Managed the following machines:<ul>
+<li>100 Linux machines</li>
 <li>20 Windows machines (Finance, Marketing, Sales),</li>
 <li>3 Solaris 8 (legacy license and print servers),</li>
 <li>2 HPUX machines (offline Agilent 8k testers).</li>
 </ul>
 </li>
-<li>Coded the chip-testing GUI in Perl/Tk for eval kits for our chips to the customers, modified to accommodate new product lines and new features.</li>
-<li>Hand-built the external mail server using a combination of cyrus-imapd, sendmail, Apache, SquirrelMail, and OpenLDAP. Also implemented a calendar server using Apache, MySQL, OpenLDAP, and PHP.</li>
-<li>Maintained DNS, YP/NIS, NFS system internally.</li>
-<li>Implemented a fairly complex backup system (arkeia for Linux, amanda for solaris, BackupPC for windows, custom scripts using rsync for miscellaneous items).</li>
-<li>Configured firewalls (Cisco Pix 501 and hardened Linux)</li>
-<li>Configured redundant Internet connections (Nextweb 5.8MHz wireless and AT&amp;T T1)</li>
-<li>Troubleshot and tuned as needed. Spec'ed and purchased equipment as needed.</li>
+<li>Coded the chip-testing GUI in Perl/Tk for eval kits for our chips to the customers, modified to accommodate new product lines and new features</li>
+<li>Hand-built the external mail server using a combination of cyrus-imapd, sendmail, Apache, SquirrelMail, and OpenLDAP. Also implemented a calendar server using Apache, MySQL, OpenLDAP, and PHP</li>
+<li>Maintained firewalls, redundant internet connections, DNS, YP/NIS, NFS system internally, backups of our corporate intellectual property (IP), spec'd and purchased equipment</li>
 </ul>
-
-
-<p><strong>Systems Administrator, <a href="http://www.skymoon.com/">Skymoon Ventures</a>, Palo Alto, CA<br />
-8/00 to 3/02</strong></p>
-
-<p>Provided computer support for a Venture Capital incubator and its various startups (e.g. Freespace Communications, AON Networks, Pixonics, Sahasra Networks, Pedestal Networks).</p>
-
-<ul>
-<li>Physical Layer: Cabling, patch-panels, HP ProCurve switches, toning, crimping, racking</li>
-<li>Network Layer: Netopia DSL router, Cisco 2650 &amp; 1720 routers, Subnet’ing, NAT’ing, Firewall’ing, VPN’s, Apache</li>
-<li>Application Layer: DNS, email (MS-Exchange &amp; sendmail, qmail (secondary MX, alternate location))</li>
-<li>Troubleshot and tuned as needed. Spec'ed and purchased equipment as needed</li>
-<li>Maintained websites</li>
-</ul>
-
-
-<p><strong>Systems Administrator, <a href="http://www.collab.net/">Collab.net</a>, San Francisco, CA<br />
-7/99 to 8/00</strong></p>
-
-<p>Was one of first employees at a dot-com startup. Provided almost every type of computer-related support imaginable. Built most of the company IT infrastructure from ground-up, with heavy but realistic emphasis on open-source solutions.</p>
-
-<p><strong>Systems Administrator, <a href="https://www.wellsfargo.com/">Wells Fargo Bank</a>, San Francisco, CA</strong></p>
-
-<p>Provided UNIX systems support for ~200 production UNIX machines that comprised a portion of Wells Fargo Bank’s production environment.</p>
-
-<h3>Education</h3>
-
-<p><a href="http://www.stevens.edu/sit/">Stevens Institute of Technology</a>, June 1989<br />
-Master of Science and Engineering, Major in Telecommunications Engineering</p>
-
-<p><a href="http://www.upenn.edu/">University of Pennsylvania</a>, August 1986<br />
-Bachelor of Science and Engineering, Major in Computer Science Engineering</p>
-
-<h3>Honors</h3>
-
-<p>National Merit Scholar</p>
-
-<h3>Interests</h3>
-
-<p>I <a href="http://pivotallabs.com/author/cunnie/">blog</a>. Topics include setting up and benchmarking the iSCSI performance of a ZFS fileserver
-(<a href="http://pivotallabs.com/high-performing-mid-range-nas-server/">1</a>,
-<a href="http://pivotallabs.com/high-performing-mid-range-nas-server-part-2-performance-tuning-iscsi/">2</a>),
+<h3 id="extracurricular-activities">Extracurricular Activities</h3>
+<p>I run <a href="https://sslip.io/">sslip.io</a>, a DNS service which maps
+specially-crafted hostnames to IP addresses.</p>
+<p>I also run six servers in the <a href="https://www.ntppool.org/user/cunnie">NTP
+pool</a> which carry an aggregate of 1% of the
+US NTP pool traffic (my Singapore server carries an even higher percentage).</p>
+<p>I am the maintainer of several BOSH releases that support my abiding interest in
+DNS, NTP, and HTTP:
+<a href="https://github.com/cloudfoundry-community/pdns-release">PowerDNS</a>,
+<a href="https://github.com/cloudfoundry-community/ntp-release">NTP</a>, and
+<a href="https://github.com/cloudfoundry-community/nginx-release">nginx</a>.</p>
+<p>I (with Dmitriy Kalinin) added <a href="https://bosh.io/docs/guide-ipv6-on-vsphere/">IPv6 support to
+BOSH</a>.</p>
+<p>I <a href="https://github.com/cunnie?tab=contributions">contribute</a> to open source
+projects. My favorite contribution: updating Ruby's core library, openssl, to
+<a href="https://github.com/ruby/openssl/commit/9322a104d16b02c7a79f9ab589859c9d63fabf52">correctly verify abbreviated IPv6
+SANs</a>.</p>
+<p>I <a href="https://engineering.pivotal.io/authors/cunnie/">blog</a> what captures my
+interest, including how to install a TLS Certificate on vCenter server appliance
+(VCSA) (<a href="https://engineering.pivotal.io/post/vcenter_6.7_tls/">1</a>), benchmarking
+the disk speed of IaaSes
+(<a href="https://engineering.pivotal.io/post/gobonniego_results/">1</a>), deploying BOSH
+VMs with IPv6 addresses to vSphere
+(<a href="https://engineering.pivotal.io/post/bosh-on-ipv6-2/">1</a>) and to AWS
+(<a href="https://engineering.pivotal.io/post/bosh-on-ipv6/">2</a>), maintaining BOSH
+Directors with Concourse CI and bosh-deployment
+(<a href="https://engineering.pivotal.io/post/bosh-deployed-with-concourse/">1</a>), why is
+my NTP server costing me $500/year
+(<a href="https://content.pivotal.io/blog/why-is-my-ntp-server-costing-500-year-part-1">1</a>,
+<a href="https://content.pivotal.io/blog/why-is-my-ntp-server-costing-me-500-year-part-2-characterizing-the-ntp-clients">2</a>,
+<a href="https://engineering.pivotal.io/post/ntp-costs-500/">3</a>), deploying a BOSH
+Director With SSL certificates issued by a commercial CA
+(<a href="https://engineering.pivotal.io/post/bosh-ssl/">1</a>), how to customize a BOSH
+stemcell (<a href="https://engineering.pivotal.io/post/bosh-customize-stemcell/">1</a>),
+updating a BOSH Release
+(<a href="https://engineering.pivotal.io/post/updating-a-bosh-release/">1</a>), Concourse CI
+has badges (<a href="https://engineering.pivotal.io/post/concourse-badges/">1</a>),
+Concourse CI without a load balancer
+(<a href="https://engineering.pivotal.io/post/concourse-no-elb/">1</a>), the world's
+smallest Concourse CI server
+(<a href="https://engineering.pivotal.io/post/worlds-smallest-concourse-server/">1</a>),
+setting up and benchmarking the iSCSI performance of a ZFS fileserver
+(<a href="https://content.pivotal.io/blog/a-high-performing-mid-range-nas-server">1</a>,
+<a href="https://content.pivotal.io/blog/a-high-performing-mid-range-nas-server-part-2-performance-tuning-for-iscsi">2</a>),
 installing Cloud Foundry in a home lab
-(<a href="http://pivotallabs.com/worlds-smallest-iaas-part-1/">1</a>,
-<a href="http://pivotallabs.com/worlds-smallest-iaas-part-2/">2</a>,
-<a href="http://pivotallabs.com/worlds-smallest-iaas-part-3-paas/">3</a>, and
-<a href="http://pivotallabs.com/worlds-smallest-iaas-part-4-hello-world/">4</a>), setting up a DNS, NTP and nginx server in the cloud
-(<a href="http://pivotallabs.com/set-freebsd-server-hetzner-part-1/">1</a>,
-<a href="http://pivotallabs.com/part-2-configure-secondary-dns-ns-server/">2</a>, <a href="http://pivotallabs.com/server-participated-large-scale-attack/">3</a>, <a href="http://pivotallabs.com/setting-freebsd-server-hetzner-part-4-nginx/">4</a>, and
-<a href="http://pivotallabs.com/setting-freebsd-server-hetzner-part-4-php-ssi-ssl-redirects/">5</a>),
+(<a href="https://content.pivotal.io/blog/worlds-smallest-iaas-part-1">1</a>,
+<a href="https://content.pivotal.io/blog/worlds-smallest-iaas-part-2">2</a>,
+<a href="https://content.pivotal.io/blog/worlds-smallest-iaas-part-3-the-paas">3</a>, and
+<a href="https://content.pivotal.io/blog/worlds-smallest-iaas-part-4-hello-world">4</a>), setting
+up a DNS, NTP and nginx server in the cloud
+(<a href="https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-1-base-install-and-ssh">1</a>,
+<a href="https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-2-dns-nameserver">2</a>,
+<a href="https://content.pivotal.io/blog/your-server-has-participated-in-a-very-large-scale-attack">3</a>,
+<a href="https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-4-nginx">4</a>, and
+<a href="https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-5-php-ssi-ssl-redirects">5</a>),
 configuring and troubleshooting an IPv6 firewall
-(<a href="http://pivotallabs.com/configuring-freebsd-9-1-as-an-ipv6-firewallrouter/">1</a>,
-<a href="http://pivotallabs.com/how-i-grabbed-18-quintillion-ip-addresses-from-comcast-and-they-didnt-even-care/">2</a>,
-<a href="http://pivotallabs.com/configuring-freebsd-9-1-as-an-ipv6-dhcp-client/">3</a>, and
-<a href="http://pivotallabs.com/made-ipv6-router-unreachable-overly-aggressive-firewall-rules/">4</a>),
-using Ruby Expect to control network appliances (<a href="http://pivotallabs.com/using-ruby-expect-library-to-reboot-ruckus-wireless-access-points-via-ssh/">1</a>),
-using DNS-SD to make printing easier (<a href="http://pivotallabs.com/moving-printers-and-common-resources-to-a-separate-network-and-making-them-easily-available-via-bonjour-and-dns-sd/">1</a>), locking down an ethernet network (<a href="http://pivotallabs.com/shunting-ethernet-guests-to-a-safe-network/">1</a>), and much more. I am currently the all-time most popular blogger at Pivotal Labs (based on number of page views).</p>
-
-<p>I contribute to open source projects (<a href="https://github.com/cunnie?tab=contributions">1</a>).</p>
-
-<p>I keep my skills current (Python (<a href="https://www.coursera.org/account/accomplishments/records/AtLtgPSJcMQjkQa7">1</a>), Ruby on Rails (<a href="https://www.coursera.org/account/accomplishments/records/X9Xm4MFX7xhyMZZG">1</a>)).</p>
-
-<p>I enjoy open water swimming and rugby.</p>
-
-<h3>A Casual Description of What I Do</h3>
-
-<p>I am a good systems administrator. Really good. I have worked for three CTOs at three different startups, all of whom were exceptional systems administrators in their own right, and I was able to create and maintain an environment to their satisfaction&mdash;I am, if you will, a system administrator’s system administrator.</p>
-
-<p>I know how to do my job: I can set my own budget, work within extremely frugal constraints, and keep things running. There has been almost no downtime at the companies at which I have worked, and that’s not because I’m lucky: it’s because I had put thought and effort into making sure that, when things failed, we were prepared.</p>
-
-<p>I see the bigger picture. I'll happily outsource webhosting and email although I am quite capable of bringing them in-house. I purchased a commercial firewall even though I could have built a better one from that old laptop in the corner. I don’t insist that everyone runs Linux. I step in when vendors fail: I spent a week working with Marketing on the new website launch after their web designer told them that he couldn’t help them anymore.</p>
-</body>
+(<a href="https://content.pivotal.io/blog/configuring-freebsd-9-1-as-a-native-ipv6-dhcp-client">1</a>,
+<a href="https://content.pivotal.io/blog/a-barebones-pf-ipv6-firewall-ruleset">2</a>,
+<a href="https://content.pivotal.io/blog/how-i-grabbed-18-quintillion-ip-addresses-from-comcast-and-they-didnt-even-care">3</a>, and
+<a href="https://content.pivotal.io/blog/troubleshooting-ipv6-firewall-rulesets-using-tcpdump-and-pflog">4</a>),
+using Ruby Expect to control network appliances
+(<a href="https://content.pivotal.io/blog/using-ruby-expect-library-to-reboot-ruckus-wireless-access-points-via-ssh">1</a>),
+using DNS-SD to make printing easier
+(<a href="https://content.pivotal.io/blog/making-printers-and-common-resources-available-to-separate-network-segments-via-bonjour-and-dns-sd">1</a>),
+locking down an ethernet network
+(<a href="https://content.pivotal.io/blog/shunting-ethernet-guests-to-a-safe-network">1</a>), and
+many more. I've written blog posts as part of my job as well, and do not include
+those posts in the above list.</p>
+<p>I play rugby and swim in the San Francisco Bay.</p>
+<h3 id="education">Education</h3>
+<p><a href="https://www.stevens.edu/sit/">Stevens Institute of Technology</a>, June 1989<br>
+Master of Science and Engineering, Major in Telecommunications Engineering</p>
+<p><a href="https://www.upenn.edu/">University of Pennsylvania</a>, August 1986<br>
+Bachelor of Science and Engineering, Major in Computer Science Engineering</p>
+<p>Ongoing, non-degree-related education:</p>
+<ul>
+<li>Build a Modern Computer from First Principles: Nand to Tetris: Parts
+<a href="https://www.coursera.org/account/accomplishments/records/3GXLPXU6MFRM">1</a> (2015) and
+<a href="https://www.coursera.org/account/accomplishments/records/8PFEYLD45R">2</a> (2018)</li>
+<li>Programming Mobile Applications for Android Handheld Systems: Part
+<a href="https://www.coursera.org/account/accomplishments/records/YCZ54M3QJU">1</a> (2015)</li>
+<li><a href="https://www.coursera.org/account/accomplishments/records/BT4R5EZX9Z">Web Application
+Architectures</a>
+(Ruby on Rails) (2014)</li>
+<li>An Introduction to Interactive Programming in Python: Parts
+<a href="https://www.coursera.org/account/accomplishments/records/NC9TKC5YDE">1</a> and
+<a href="https://www.coursera.org/account/accomplishments/records/6FCYBUF2MX">2</a> (2013)</li>
+</ul>
+<h3 id="honors">Honors</h3>
+<p>National Merit Scholar</p></body>
 </html>

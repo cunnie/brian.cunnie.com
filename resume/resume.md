@@ -37,7 +37,7 @@ Postfix), HTTP servers (Apache, nginx)
 
 ### Experience
 
-**Software Engineer, [VMware](https://tanzu.vmware.com/) (formerly Pivotal), San Francisco, CA<br />
+**Software Engineer, [VMware](https://vmware.com/) (formerly Pivotal), San Francisco, CA<br />
 6/11 to present**
 
 - Autoscaler and Scheduler Team: maintained two cloud-based applications
@@ -176,7 +176,7 @@ locking down an ethernet network
 many more. I've written blog posts as part of my job as well, and do not include
 those posts in the above list.
 
-I play rugby and swim in the San Francisco Bay.
+I swim in the San Francisco Bay and play rugby.
 
 ### Education
 

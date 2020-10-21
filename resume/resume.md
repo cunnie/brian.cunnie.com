@@ -44,9 +44,9 @@ Postfix), HTTP servers (Apache, nginx)
   (written in a smorgasbord of languages: Golang, Kotlin, Java, Groovy, Bash).
   Much of the work was bug fixes and CVE mitigations through dependency bumps
 - V3 Acceleration Team: enhanced the Cloud Foundry API (CAPI), a Ruby-based MVC
-  application to include new endpoints, new features. At the same time, enhanced
-  the Cloud Foundry CLI, a Golang-based application, to take advantage of the
-  new endpoints, new features
+  application, to include new endpoints, new features. At the same time,
+  enhanced the Cloud Foundry CLI, a Golang-based application, to take advantage
+  of the new endpoints, new features
 - TAS NSX-T: built automated test infrastructure to test interoperability
   between Pivotal's cloud offering (TAS) and VMware's software-defined network
   (NSX-T), addressed issues with appropriate organizations
@@ -123,11 +123,18 @@ projects. My favorite contribution: updating Ruby's core library, openssl, to
 SANs](https://github.com/ruby/openssl/commit/9322a104d16b02c7a79f9ab589859c9d63fabf52).
 
 I [blog](https://engineering.pivotal.io/authors/cunnie/) what captures my
-interest, including how to organize Golang unit tests
-([1](https://engineering.pivotal.io/post/go-flow-tests-like-code/)),
-how to install a TLS Certificate on vCenter server appliance
-(VCSA) ([1](https://engineering.pivotal.io/post/vcenter_6.7_tls/)), benchmarking
-the disk speed of IaaSes
+interest, including how to best organize your Golang unit tests
+([1](https://engineering.pivotal.io/post/go-flow-tests-like-code/)), how to
+enable IPv6 on Cloud Foundry's HAProxy
+([1](https://engineering.pivotal.io/post/haproxy-ipv6/)), benchmarks of a 10
+GbE-backed NAS server
+([1](https://engineering.pivotal.io/post/nas-performance-tuning/)), transferring
+time-based one-time passwords to a new smartphone
+([1](https://engineering.pivotal.io/post/totp/)), uncovering a man-in-the-middle
+SSH proxy ([1](https://engineering.pivotal.io/post/ssh_handshake_failed/)), how
+to install a TLS Certificate on vCenter server appliance (VCSA)
+([1](https://engineering.pivotal.io/post/vcenter_6.7_tls/)), benchmarking the
+disk speed of IaaSes
 ([1](https://engineering.pivotal.io/post/gobonniego_results/)), deploying BOSH
 VMs with IPv6 addresses to vSphere
 ([1](https://engineering.pivotal.io/post/bosh-on-ipv6-2/)) and to AWS
@@ -135,15 +142,16 @@ VMs with IPv6 addresses to vSphere
 Directors with Concourse CI and bosh-deployment
 ([1](https://engineering.pivotal.io/post/bosh-deployed-with-concourse/)), why is
 my NTP server costing me $500/year
-([1](https://content.pivotal.io/blog/why-is-my-ntp-server-costing-500-year-part-1) (top spot on Hacker News),
+([1](https://content.pivotal.io/blog/why-is-my-ntp-server-costing-500-year-part-1)
+(top spot on Hacker News),
 [2](https://content.pivotal.io/blog/why-is-my-ntp-server-costing-me-500-year-part-2-characterizing-the-ntp-clients),
 [3](https://engineering.pivotal.io/post/ntp-costs-500/)), deploying a BOSH
 Director With SSL certificates issued by a commercial CA
 ([1](https://engineering.pivotal.io/post/bosh-ssl/)), how to customize a BOSH
 stemcell ([1](https://engineering.pivotal.io/post/bosh-customize-stemcell/)),
 updating a BOSH Release
-([1](https://engineering.pivotal.io/post/updating-a-bosh-release/)), Concourse CI
-has badges ([1](https://engineering.pivotal.io/post/concourse-badges/)),
+([1](https://engineering.pivotal.io/post/updating-a-bosh-release/)), Concourse
+CI has badges ([1](https://engineering.pivotal.io/post/concourse-badges/)),
 Concourse CI without a load balancer
 ([1](https://engineering.pivotal.io/post/concourse-no-elb/)), the world's
 smallest Concourse CI server
@@ -155,26 +163,28 @@ installing Cloud Foundry in a home lab
 ([1](https://content.pivotal.io/blog/worlds-smallest-iaas-part-1),
 [2](https://content.pivotal.io/blog/worlds-smallest-iaas-part-2),
 [3](https://content.pivotal.io/blog/worlds-smallest-iaas-part-3-the-paas), and
-[4](https://content.pivotal.io/blog/worlds-smallest-iaas-part-4-hello-world)), setting
-up a DNS, NTP and nginx server in the cloud
+[4](https://content.pivotal.io/blog/worlds-smallest-iaas-part-4-hello-world)),
+setting up a DNS, NTP and nginx server in the cloud
 ([1](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-1-base-install-and-ssh),
 [2](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-2-dns-nameserver),
 [3](https://content.pivotal.io/blog/your-server-has-participated-in-a-very-large-scale-attack),
-[4](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-4-nginx), and
+[4](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-4-nginx),
+and
 [5](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-5-php-ssi-ssl-redirects)),
 configuring and troubleshooting an IPv6 firewall
 ([1](https://content.pivotal.io/blog/configuring-freebsd-9-1-as-a-native-ipv6-dhcp-client),
 [2](https://content.pivotal.io/blog/a-barebones-pf-ipv6-firewall-ruleset),
-[3](https://content.pivotal.io/blog/how-i-grabbed-18-quintillion-ip-addresses-from-comcast-and-they-didnt-even-care), and
+[3](https://content.pivotal.io/blog/how-i-grabbed-18-quintillion-ip-addresses-from-comcast-and-they-didnt-even-care),
+and
 [4](https://content.pivotal.io/blog/troubleshooting-ipv6-firewall-rulesets-using-tcpdump-and-pflog)),
 using Ruby Expect to control network appliances
 ([1](https://content.pivotal.io/blog/using-ruby-expect-library-to-reboot-ruckus-wireless-access-points-via-ssh)),
 using DNS-SD to make printing easier
 ([1](https://content.pivotal.io/blog/making-printers-and-common-resources-available-to-separate-network-segments-via-bonjour-and-dns-sd)),
 locking down an ethernet network
-([1](https://content.pivotal.io/blog/shunting-ethernet-guests-to-a-safe-network)), and
-many more. I've written blog posts as part of my job as well, and do not include
-those posts in the above list.
+([1](https://content.pivotal.io/blog/shunting-ethernet-guests-to-a-safe-network)),
+and many more. I've written blog posts as part of my job as well, and do not
+include those posts in the above list.
 
 I swim in the San Francisco Bay and play rugby.
 

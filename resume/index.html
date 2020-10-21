@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta name="generator" content=
-  "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 17.1), see www.w3.org">
+  "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 17.2), see www.w3.org">
   <style type="text/css">
 body {
    color: black;
@@ -14,6 +14,9 @@ body {
 </head>
 
 <body>
+  <!-- https://markdowntohtml.com/ to convert -->
+  <!-- tidy -im -w 120 index.html # to tidy -->
+
   <h2 align="center">Brian Cunnie</h2>
 
   <h4 align="center">Software Developer</h4>
@@ -45,15 +48,19 @@ body {
 
   <h3 id="experience">Experience</h3>
 
-  <p><strong>Software Engineer, <a href="https://vmware.com/">VMware (formerly Pivotal)</a>, San Francisco, CA<br>
+  <p><strong>Software Engineer, <a href="https://vmware.com/">VMware</a> (formerly Pivotal), San Francisco, CA<br>
   6/11 to present</strong></p>
 
   <ul>
+    <li>Autoscaler and Scheduler Team: maintained two cloud-based applications (written in a smorgasbord of languages:
+    Golang, Kotlin, Java, Groovy, Bash). Much of the work was bug fixes and CVE mitigations through dependency
+    bumps</li>
+
     <li>V3 Acceleration Team: enhanced the Cloud Foundry API (CAPI), a Ruby-based MVC application, to include new
     endpoints, new features. At the same time, enhanced the Cloud Foundry CLI, a Golang-based application, to take
-    advantage of the new endpoints, new features.</li>
+    advantage of the new endpoints, new features</li>
 
-    <li>PAS NSX-T: built automated test infrastructure to test interoperability between Pivotal's cloud offering (PAS)
+    <li>TAS NSX-T: built automated test infrastructure to test interoperability between Pivotal's cloud offering (TAS)
     and VMware's software-defined network (NSX-T), addressed issues with appropriate organizations</li>
 
     <li>Cloud Operations: maintained Pivotal Web Services (PWS), Pivotal's public-facing Cloud Foundry. Deployed
@@ -142,10 +149,10 @@ body {
   <h3 id="extracurricular-activities">Extracurricular Activities</h3>
 
   <p>I run <a href="https://sslip.io/">sslip.io</a>, a DNS service which maps specially-crafted hostnames to IP
-  addresses.</p>
+  addresses. It made the top spot on Hacker News when I announced it.</p>
 
   <p>I also run six servers in the <a href="https://www.ntppool.org/user/cunnie">NTP pool</a> which carry an aggregate
-  of 1% of the US NTP pool traffic (my Singapore server carries an even higher percentage).</p>
+  of 1% of the US NTP pool traffic (my Singapore servers carry an even higher percentage).</p>
 
   <p>I am the maintainer of several BOSH releases that support my abiding interest in DNS, NTP, and HTTP: <a href=
   "https://github.com/cloudfoundry-community/pdns-release">PowerDNS</a>, <a href=
@@ -172,7 +179,8 @@ body {
   (<a href="https://engineering.pivotal.io/post/bosh-on-ipv6/">2</a>), maintaining BOSH Directors with Concourse CI and
   bosh-deployment (<a href="https://engineering.pivotal.io/post/bosh-deployed-with-concourse/">1</a>), why is my NTP
   server costing me $500/year (<a href=
-  "https://content.pivotal.io/blog/why-is-my-ntp-server-costing-500-year-part-1">1</a>, <a href=
+  "https://content.pivotal.io/blog/why-is-my-ntp-server-costing-500-year-part-1">1</a> (top spot on Hacker News),
+  <a href=
   "https://content.pivotal.io/blog/why-is-my-ntp-server-costing-me-500-year-part-2-characterizing-the-ntp-clients">2</a>,
   <a href="https://engineering.pivotal.io/post/ntp-costs-500/">3</a>), deploying a BOSH Director With SSL certificates
   issued by a commercial CA (<a href="https://engineering.pivotal.io/post/bosh-ssl/">1</a>), how to customize a BOSH

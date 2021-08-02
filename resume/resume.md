@@ -1,5 +1,7 @@
 <!-- https://markdowntohtml.com/ to convert -->
 <!-- tidy -im -w 120 index.html # to tidy -->
+<title>Brian Cunnie</title>
+
 <h2 align="center">Brian Cunnie</h2>
 
 <h4 align="center">Software Developer</h4>
@@ -122,67 +124,67 @@ projects. My favorite contribution: updating Ruby's core library, openssl, to
 [correctly verify abbreviated IPv6
 SANs](https://github.com/ruby/openssl/commit/9322a104d16b02c7a79f9ab589859c9d63fabf52).
 
-I [blog](https://engineering.pivotal.io/authors/cunnie/) what captures my
+I [blog](https://blog.nono.io) what captures my
 interest, including how to best organize your Golang unit tests
-([1](https://engineering.pivotal.io/post/go-flow-tests-like-code/)), how to
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/flow-your-tests-like-your-code-2)), how to
 enable IPv6 on Cloud Foundry's HAProxy
-([1](https://engineering.pivotal.io/post/haproxy-ipv6/)), benchmarks of a 10
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-enable-ipv6-on-your-cloud-foundrys-haproxy-2)), benchmarks of a 10
 GbE-backed NAS server
-([1](https://engineering.pivotal.io/post/nas-performance-tuning/)), transferring
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/a-high-performing-mid-range-nas-server-part-3-10-gbe-2)), transferring
 time-based one-time passwords to a new smartphone
-([1](https://engineering.pivotal.io/post/totp/)), uncovering a man-in-the-middle
-SSH proxy ([1](https://engineering.pivotal.io/post/ssh_handshake_failed/)), how
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/transferring-time-based-one-time-passwords-to-a-new-smartphone-2)), uncovering a man-in-the-middle
+SSH proxy ([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/troubleshooting-obscure-openssh-failures-2)), how
 to install a TLS Certificate on vCenter server appliance (VCSA)
-([1](https://engineering.pivotal.io/post/vcenter_6.7_tls/)), benchmarking the
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-install-a-tls-certificate-on-vcenter-server-appliance-vcsa-6-7-updated-for-vcenter-7)), benchmarking the
 disk speed of IaaSes
-([1](https://engineering.pivotal.io/post/gobonniego_results/)), deploying BOSH
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/benchmarking-the-disk-speed-of-iaases-2)), deploying BOSH
 VMs with IPv6 addresses to vSphere
-([1](https://engineering.pivotal.io/post/bosh-on-ipv6-2/)) and to AWS
-([2](https://engineering.pivotal.io/post/bosh-on-ipv6/)), maintaining BOSH
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/deploying-bosh-vms-with-ipv6-addresses-on-vsphere-2)) and to AWS
+([2](https://tanzu.vmware.com/content/pivotal-engineering-journal/bosh-deployed-to-an-ipv6-environment-on-vsphere)), maintaining BOSH
 Directors with Concourse CI and bosh-deployment
-([1](https://engineering.pivotal.io/post/bosh-deployed-with-concourse/)), why is
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/maintaining-bosh-directors-with-concourse-ci-and-bosh-deployment-2)), why is
 my NTP server costing me $500/year
-([1](https://content.pivotal.io/blog/why-is-my-ntp-server-costing-500-year-part-1)
+([1](https://tanzu.vmware.com/content/blog/why-is-my-ntp-server-costing-500-year-part-1)
 (top spot on Hacker News),
-[2](https://content.pivotal.io/blog/why-is-my-ntp-server-costing-me-500-year-part-2-characterizing-the-ntp-clients),
-[3](https://engineering.pivotal.io/post/ntp-costs-500/)), deploying a BOSH
+[2](https://tanzu.vmware.com/content/blog/why-is-my-ntp-server-costing-me-500-year-part-2-characterizing-the-ntp-clients),
+[3](https://tanzu.vmware.com/content/pivotal-engineering-journal/why-is-my-ntp-server-costing-500-year-part-3-2)), deploying a BOSH
 Director With SSL certificates issued by a commercial CA
-([1](https://engineering.pivotal.io/post/bosh-ssl/)), how to customize a BOSH
-stemcell ([1](https://engineering.pivotal.io/post/bosh-customize-stemcell/)),
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/deploying-a-bosh-director-with-ssl-certificates-issued-by-commercial-ca)), how to customize a BOSH
+stemcell ([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-customize-a-bosh-stemcell-2)),
 updating a BOSH Release
-([1](https://engineering.pivotal.io/post/updating-a-bosh-release/)), Concourse
-CI has badges ([1](https://engineering.pivotal.io/post/concourse-badges/)),
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/updating-a-bosh-release-2)), Concourse
+CI has badges ([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/concourse-has-badges-3)),
 Concourse CI without a load balancer
-([1](https://engineering.pivotal.io/post/concourse-no-elb/)), the world's
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/concourse-without-a-load-balancer-3)), the world's
 smallest Concourse CI server
-([1](https://engineering.pivotal.io/post/worlds-smallest-concourse-server/)),
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/the-worlds-smallest-concourse-ci-server-2)),
 setting up and benchmarking the iSCSI performance of a ZFS fileserver
-([1](https://content.pivotal.io/blog/a-high-performing-mid-range-nas-server),
-[2](https://content.pivotal.io/blog/a-high-performing-mid-range-nas-server-part-2-performance-tuning-for-iscsi)),
+([1](https://tanzu.vmware.com/content/blog/a-high-performing-mid-range-nas-server),
+[2](https://tanzu.vmware.com/content/blog/a-high-performing-mid-range-nas-server-part-2-performance-tuning-for-iscsi)),
 installing Cloud Foundry in a home lab
-([1](https://content.pivotal.io/blog/worlds-smallest-iaas-part-1),
-[2](https://content.pivotal.io/blog/worlds-smallest-iaas-part-2),
-[3](https://content.pivotal.io/blog/worlds-smallest-iaas-part-3-the-paas), and
-[4](https://content.pivotal.io/blog/worlds-smallest-iaas-part-4-hello-world)),
+([1](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-1),
+[2](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-2),
+[3](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-3-the-paas), and
+[4](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-4-hello-world)),
 setting up a DNS, NTP and nginx server in the cloud
-([1](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-1-base-install-and-ssh),
-[2](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-2-dns-nameserver),
-[3](https://content.pivotal.io/blog/your-server-has-participated-in-a-very-large-scale-attack),
-[4](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-4-nginx),
+([1](https://tanzu.vmware.com/content/blog/setting-up-a-freebsd-server-on-hetzner-part-1-base-install-and-ssh),
+[2](https://tanzu.vmware.com/content/blog/setting-up-a-freebsd-server-on-hetzner-part-2-dns-nameserver),
+[3](https://tanzu.vmware.com/content/blog/your-server-has-participated-in-a-very-large-scale-attack),
+[4](https://tanzu.vmware.com/content/blog/setting-up-a-freebsd-server-on-hetzner-part-4-nginx),
 and
-[5](https://content.pivotal.io/blog/setting-up-a-freebsd-server-on-hetzner-part-5-php-ssi-ssl-redirects)),
+[5](https://tanzu.vmware.com/content/blog/setting-up-a-freebsd-server-on-hetzner-part-5-php-ssi-ssl-redirects)),
 configuring and troubleshooting an IPv6 firewall
-([1](https://content.pivotal.io/blog/configuring-freebsd-9-1-as-a-native-ipv6-dhcp-client),
-[2](https://content.pivotal.io/blog/a-barebones-pf-ipv6-firewall-ruleset),
-[3](https://content.pivotal.io/blog/how-i-grabbed-18-quintillion-ip-addresses-from-comcast-and-they-didnt-even-care),
+([1](https://tanzu.vmware.com/content/blog/configuring-freebsd-9-1-as-a-native-ipv6-dhcp-client),
+[2](https://tanzu.vmware.com/content/blog/a-barebones-pf-ipv6-firewall-ruleset),
+[3](https://tanzu.vmware.com/content/blog/how-i-grabbed-18-quintillion-ip-addresses-from-comcast-and-they-didnt-even-care),
 and
-[4](https://content.pivotal.io/blog/troubleshooting-ipv6-firewall-rulesets-using-tcpdump-and-pflog)),
+[4](https://tanzu.vmware.com/content/blog/troubleshooting-ipv6-firewall-rulesets-using-tcpdump-and-pflog)),
 using Ruby Expect to control network appliances
-([1](https://content.pivotal.io/blog/using-ruby-expect-library-to-reboot-ruckus-wireless-access-points-via-ssh)),
+([1](https://tanzu.vmware.com/content/blog/using-ruby-expect-library-to-reboot-ruckus-wireless-access-points-via-ssh)),
 using DNS-SD to make printing easier
-([1](https://content.pivotal.io/blog/making-printers-and-common-resources-available-to-separate-network-segments-via-bonjour-and-dns-sd)),
+([1](https://tanzu.vmware.com/content/blog/making-printers-and-common-resources-available-to-separate-network-segments-via-bonjour-and-dns-sd)),
 locking down an ethernet network
-([1](https://content.pivotal.io/blog/shunting-ethernet-guests-to-a-safe-network)),
+([1](https://tanzu.vmware.com/content/blog/shunting-ethernet-guests-to-a-safe-network)),
 and many more. I've written blog posts as part of my job as well, and do not
 include those posts in the above list.
 

@@ -17,7 +17,7 @@ brian.cunnie@gmail.com
 
 **Not currently looking**, but if I were, it would be for a four-day workweek
 software developer position in the San Francisco Bay Area, one accessible by
-public transportation, with pair programming and test driven development (TDD).
+public transportation, with pair programming.
 
 ### Skills
 
@@ -42,28 +42,28 @@ Postfix), HTTP servers (Apache, nginx)
 **Software Engineer, [VMware](https://vmware.com/) (formerly Pivotal), San Francisco, CA<br />
 6/11 to present**
 
+- BOSH: maintained BOSH, a virtual machine (VM) orchestrator (Ruby) CPIs:
+  maintained the Ruby-based Cloud Provider Interface (CPI,interface between
+  BOSH and IaaS). Wrote the underlying API calls for AWS and vSphere. (Ruby)
+  Operations Manager: developed and maintained Operations Manager, a
+  Ruby-on-Rails application which acts as a front end to Pivotal's commercial
+  Cloud Foundry and Kubernetes offerings. Went on-call, helped customers
+  resolve technical issues.
 - Autoscaler and Scheduler Team: maintained two cloud-based applications
   (written in a smorgasbord of languages: Golang, Kotlin, Java, Groovy, Bash).
   Much of the work was bug fixes and CVE mitigations through dependency bumps
 - V3 Acceleration Team: enhanced the Cloud Foundry API (CAPI), a Ruby-based MVC
   application, to include new endpoints, new features. At the same time,
   enhanced the Cloud Foundry CLI, a Golang-based application, to take advantage
-  of the new endpoints, new features
+  of the new endpoints and new features
 - TAS NSX-T: built automated test infrastructure to test interoperability
   between Pivotal's cloud offering (TAS) and VMware's software-defined network
   (NSX-T), addressed issues with appropriate organizations
 - Cloud Operations: maintained Pivotal Web Services (PWS), Pivotal's
   public-facing Cloud Foundry. Deployed updates several times a week, addressed
   GDPR compliance, and diagnosed, remedied, and documented outages
-- Operations Manager: developed and maintained Operations Manager, a Ruby on
-  Rails application which acts as a front end to Pivotal's commercial Cloud
-  Foundry and Kubernetes offerings
-- BOSH CPI: maintained the Ruby-based Cloud Provider Interface (CPI,interface
-  between BOSH and IaaS). Wrote the underlying API calls for AWS and vSphere.
-  (Ruby)
-- BOSH: maintained BOSH, a virtual machine (VM) orchestrator (Ruby)
-- Release Engineering: wrote the tooling that tested the each release of
-  the Pivotal Cloud Foundry software (Ruby)
+- Release Engineering: wrote the tooling that tested the each release of the
+  Pivotal Cloud Foundry software (Ruby)
 - Toolsmiths: maintained vSphere environments used by the development teams
 
 **Systems Administrator, Arda Technologies (acquired by
@@ -106,15 +106,8 @@ I run [sslip.io](https://sslip.io/), a DNS service which maps specially-crafted
 hostnames to IP addresses. It made the top spot on Hacker News when I announced
 it.
 
-I also run six servers in the [NTP pool](https://www.ntppool.org/user/cunnie)
-which carry an aggregate of 1% of the US NTP pool traffic (my Singapore servers
-carry an even higher percentage).
-
-I am the maintainer of several BOSH releases that support my abiding interest in
-DNS, NTP, and HTTP:
-[PowerDNS](https://github.com/cloudfoundry-community/pdns-release),
-[NTP](https://github.com/cloudfoundry-community/ntp-release), and
-[nginx](https://github.com/cloudfoundry-community/nginx-release).
+I also run five servers in the [NTP pool](https://www.ntppool.org/user/cunnie)
+which carry an aggregate of 1% of the US NTP pool traffic.
 
 I (with Dmitriy Kalinin) added [IPv6 support to
 BOSH](https://bosh.io/docs/guide-ipv6-on-vsphere/).

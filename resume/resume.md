@@ -39,7 +39,7 @@ Postfix), HTTP servers (Apache, nginx)
 
 ### Experience
 
-**Software Engineer, [VMware](https://vmware.com/) (formerly Pivotal), San Francisco, CA<br />
+**Software Engineer, [Broadcom](https://broadcom.com/) (formerly VMware, formerly Pivotal), San Francisco, CA<br />
 6/11 to present**
 
 - BOSH: maintained BOSH, a virtual machine (VM) orchestrator (Ruby) CPIs:
@@ -117,39 +117,65 @@ projects. My favorite contribution: updating Ruby's core library, openssl, to
 [correctly verify abbreviated IPv6
 SANs](https://github.com/ruby/openssl/commit/9322a104d16b02c7a79f9ab589859c9d63fabf52).
 
-I [blog](https://blog.nono.io) what captures my
-interest, including how to best organize your Golang unit tests
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/flow-your-tests-like-your-code-2)), how to
-enable IPv6 on Cloud Foundry's HAProxy
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-enable-ipv6-on-your-cloud-foundrys-haproxy-2)), benchmarks of a 10
-GbE-backed NAS server
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/a-high-performing-mid-range-nas-server-part-3-10-gbe-2)), transferring
-time-based one-time passwords to a new smartphone
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/transferring-time-based-one-time-passwords-to-a-new-smartphone-2)), uncovering a man-in-the-middle
-SSH proxy ([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/troubleshooting-obscure-openssh-failures-2)), how
-to install a TLS Certificate on vCenter server appliance (VCSA)
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-install-a-tls-certificate-on-vcenter-server-appliance-vcsa-6-7-updated-for-vcenter-7)), benchmarking the
-disk speed of IaaSes
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/benchmarking-the-disk-speed-of-iaases-2)), deploying BOSH
-VMs with IPv6 addresses to vSphere
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/deploying-bosh-vms-with-ipv6-addresses-on-vsphere-2)) and to AWS
-([2](https://tanzu.vmware.com/content/pivotal-engineering-journal/bosh-deployed-to-an-ipv6-environment-on-vsphere)), maintaining BOSH
-Directors with Concourse CI and bosh-deployment
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/maintaining-bosh-directors-with-concourse-ci-and-bosh-deployment-2)), why is
-my NTP server costing me $500/year
+I [blog](https://blog.nono.io) what captures my interest, including debugging
+the vSphere API via the BOSH vSphere CPI
+([1](https://blog.nono.io/post/debugging_vsphere_cpi_api/)), how to install a
+TLS certificate on VMware NSX 4.1 ([1](https://blog.nono.io/post/nsx_tls/)),
+on-premise is almost four times cheaper than the cloud
+([1](https://blog.nono.io/post/on-premise_vs_cloud/)), the least secure way to
+backup vCenter 8.0 with TrueNAS 13.0
+([1](https://blog.nono.io/post/backup_vcenter_w_truenas/)), creating
+multi-platform Docker images with Concourse CI
+([1](https://blog.nono.io/post/multi-platform_docker_images_with_concourse/)),
+how to install a TLS certificate on vCenter Server Appliance (VCSA) 8.0
+([1](https://blog.nono.io/post/vcenter_8.0_tls/)), tuning HAProxy in a vSphere
+environment ([1](https://blog.nono.io/post/tuning_haproxy/)), the underground
+guide to Cloud Foundry Acceptance Tests
+([1](https://blog.nono.io/post/underground_guide_to_cf_acceptance/)), disk
+controller benchmarks: VMware Paravirtual's vs. LSI Logic Parallel's
+([1](https://blog.nono.io/post/pvscsi/)), Concourse CI on Kubernetes (GKE)
+([1](https://blog.nono.io/post/concourse_on_k8s-1/),
+[2](https://blog.nono.io/post/concourse_on_k8s-2/),
+[3](https://blog.nono.io/post/concourse_on_k8s-3/),
+[4](https://blog.nono.io/post/concourse_on_k8s-4/),
+[5](https://blog.nono.io/post/concourse_on_k8s-5/),
+[6](https://blog.nono.io/post/concourse_on_k8s-6/)) how to best organize your
+Golang unit tests
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/flow-your-tests-like-your-code-2)),
+how to enable IPv6 on Cloud Foundry's HAProxy
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-enable-ipv6-on-your-cloud-foundrys-haproxy-2)),
+benchmarks of a 10 GbE-backed NAS server
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/a-high-performing-mid-range-nas-server-part-3-10-gbe-2)),
+transferring time-based one-time passwords to a new smartphone
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/transferring-time-based-one-time-passwords-to-a-new-smartphone-2)),
+uncovering a man-in-the-middle SSH proxy
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/troubleshooting-obscure-openssh-failures-2)),
+how to install a TLS Certificate on vCenter server appliance (VCSA)
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-install-a-tls-certificate-on-vcenter-server-appliance-vcsa-6-7-updated-for-vcenter-7)),
+benchmarking the disk speed of IaaSes
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/benchmarking-the-disk-speed-of-iaases-2)),
+deploying BOSH VMs with IPv6 addresses to vSphere
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/deploying-bosh-vms-with-ipv6-addresses-on-vsphere-2))
+and to AWS
+([2](https://tanzu.vmware.com/content/pivotal-engineering-journal/bosh-deployed-to-an-ipv6-environment-on-vsphere)),
+maintaining BOSH Directors with Concourse CI and bosh-deployment
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/maintaining-bosh-directors-with-concourse-ci-and-bosh-deployment-2)),
+why is my NTP server costing me $500/year
 ([1](https://tanzu.vmware.com/content/blog/why-is-my-ntp-server-costing-500-year-part-1)
 (top spot on Hacker News),
 [2](https://tanzu.vmware.com/content/blog/why-is-my-ntp-server-costing-me-500-year-part-2-characterizing-the-ntp-clients),
-[3](https://tanzu.vmware.com/content/pivotal-engineering-journal/why-is-my-ntp-server-costing-500-year-part-3-2)), deploying a BOSH
-Director With SSL certificates issued by a commercial CA
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/deploying-a-bosh-director-with-ssl-certificates-issued-by-commercial-ca)), how to customize a BOSH
-stemcell ([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-customize-a-bosh-stemcell-2)),
+[3](https://tanzu.vmware.com/content/pivotal-engineering-journal/why-is-my-ntp-server-costing-500-year-part-3-2)),
+deploying a BOSH Director With SSL certificates issued by a commercial CA
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/deploying-a-bosh-director-with-ssl-certificates-issued-by-commercial-ca)),
+how to customize a BOSH stemcell
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/how-to-customize-a-bosh-stemcell-2)),
 updating a BOSH Release
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/updating-a-bosh-release-2)), Concourse
-CI has badges ([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/concourse-has-badges-3)),
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/updating-a-bosh-release-2)),
+Concourse CI has badges
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/concourse-has-badges-3)),
 Concourse CI without a load balancer
-([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/concourse-without-a-load-balancer-3)), the world's
-smallest Concourse CI server
+([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/concourse-without-a-load-balancer-3)),
+the world's smallest Concourse CI server
 ([1](https://tanzu.vmware.com/content/pivotal-engineering-journal/the-worlds-smallest-concourse-ci-server-2)),
 setting up and benchmarking the iSCSI performance of a ZFS fileserver
 ([1](https://tanzu.vmware.com/content/blog/a-high-performing-mid-range-nas-server),
@@ -157,7 +183,8 @@ setting up and benchmarking the iSCSI performance of a ZFS fileserver
 installing Cloud Foundry in a home lab
 ([1](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-1),
 [2](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-2),
-[3](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-3-the-paas), and
+[3](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-3-the-paas),
+and
 [4](https://tanzu.vmware.com/content/blog/worlds-smallest-iaas-part-4-hello-world)),
 setting up a DNS, NTP and nginx server in the cloud
 ([1](https://tanzu.vmware.com/content/blog/setting-up-a-freebsd-server-on-hetzner-part-1-base-install-and-ssh),

@@ -1,0 +1,545 @@
+<!--
+.mainleftnav {text-indent: 3px; line-height=15px; background-color: #3366cc;}
+.mainleftnav_on {text-indent: 3px; line-height=15px; background-color: #cc0000;}
+.mainleftnav_aw {text-indent: 3px; line-height=15px; background-color: #8CC51A;}
+.sectionleftnav {text-indent: 6px; line-height=15px; background-color: #EC9B9B;}
+.sectionleftnav2 {text-indent: 6px; line-height=15px; background-color: #F2B1B1;}
+.sectionleftnav3 {text-indent: 9px; line-height=15px; background-color: #F2B1B1;}
+.leftnav {text-indent: 3px; line-height=15px; background-color: #BEBCBC;}
+.leftnav_on {text-indent: 3px; line-height=15px; background-color: #D9D8D8;}
+.midsectionleftnav2 {text-indent: 6px; line-height=15px; background-color: #D9D8D8;}
+.midsectionleftnav3 {text-indent: 9px; line-height=15px; background-color: #D9D8D8;}
+.bottomleftnav {text-indent: 3px; line-height=15px; background-color: #000000;}
+.redcarpet {line-height=20px;}	
+
+.bg_999999 {background-color:#999999;}
+.bg_CCCCCC {background-color:#CCCCCC;}
+.bg_E0E0E0 {background-color:#E0E0E0;}
+
+.justify {text-align:justify;}
+
+A.a6bl {font-family:arial, helvetica, ms sans serif; font-size:6pt; color:#000000; text-decoration:none;}
+A.a6wt {font-family:arial, helvetica, ms sans serif; font-size:6pt; color:#ffffff; text-decoration:none;}
+
+A.a7bl {font-family:arial, helvetica, ms sans serif; font-size:7pt; color:#000000; text-decoration:none;}
+A.a7wt {font-family:arial, helvetica, ms sans serif; font-size:7pt; color:#ffffff; text-decoration:none;}
+
+A.a8bl {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000; text-decoration:none;}
+A.a8blb {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.a8blbu {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000; font-weight:bold;}
+A.a8blb:hover {color:#cc0000;}
+A.a8blu {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000;}
+A.a8_1c3b67_b {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#1c3b67; text-decoration:none; font-weight:bold;}
+A.a8_3366cc {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#3366cc; text-decoration:none;}
+A.a8_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#3366cc; text-decoration:none; font-weight:bold;}
+A.a8red {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; text-decoration:none;}
+A.a8redb {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.a8red2 {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; text-decoration: none; background-color:#E0E0E0;}
+A.a8red2:hover {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; text-decoration:underline; font-weight:normal; background-color:#f0f0f0;}
+A.a8redu {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000;}
+A.a8redbu {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; font-weight:bold;}
+A.a8wt {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff; text-decoration:none;}
+A.a8wtb {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+A.a8wtbu {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff; font-weight:bold;}
+A.a8wtb:hover {color:#dadada;}
+A.a8_707070_b {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#707070; text-decoration:none; font-weight:bold;}
+A.a8_707070_b:hover {color:#cc0000;}
+A.a8_F88F93_b {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#F88F93; text-decoration:none; font-weight:bold;}
+A.v8red {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; text-decoration:underline; font-weight:normal;}
+A.v8red:hover {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; text-decoration:none; font-weight:normal;}
+A.v8redb {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.v8redb_gray {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.v8redb_gray:hover {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#333333; text-decoration:none; font-weight:bold;}
+A.v8bl {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#000000; text-decoration:none;}
+A.v8blb {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.v8blbu {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#000000; font-weight:bold;}
+A.v8blue {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#0000ff; text-decoration:underline; font-weight:normal;}
+A.v8blue:hover {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#0000ff; text-decoration:none; font-weight:normal;}
+A.v8blueb {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#0000ff; text-decoration:underline; font-weight:bold;}
+A.v8wt {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff; text-decoration:none;}
+A.v8wtb {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+A.v8wtbu {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff; font-weight:bold;}
+A.v8wt {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff;}
+A.v8_702B89 {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#702B89; text-decoration:none;}
+A.v8_702B89_u {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#702B89;}
+A.v8_702B89_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#702B89; text-decoration:none; font-weight:bold;}
+A.v8_7AC802 {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#7AC802; text-decoration:none;}
+A.v8_7AC802_u {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#7AC802;}
+A.v8_7AC802 _b {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#7AC802; text-decoration:none; font-weight:bold;}
+A.v8_ABA000 {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#ABA000; text-decoration:none;}
+A.v8_ABA000_u {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#ABA000;}
+A.v8_ABA000_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#ABA000; text-decoration:none; font-weight:bold;}
+A.v8_2E3192 {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#2E3192; text-decoration:none;}
+A.v8_2E3192_u {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#2E3192;}
+A.v8_2E3192_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#2E3192; text-decoration:none; font-weight:bold;}
+A.v8_2E3192_bu {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#2E3192; font-weight:bold;}
+A.v8_11703A_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#11703A; text-decoration:none; font-weight:bold;}
+A.v8_11703A_bu {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#11703A; font-weight:bold;}
+A.v8_727272_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#727272; text-decoration:none; font-weight:bold;}
+A.v8_727272_bu {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#727272; font-weight:bold;}
+A.a8_727272_b {font-family:arial,verdana,helvetica, ms sans serif; font-size:8pt; color:#727272; text-decoration:none; font-weight:bold;}
+A.a8_4479AF_b {font-family:arial,verdana,helvetica, ms sans serif; font-size:8pt; color:#4479AF; text-decoration:none; font-weight:bold;}
+A.a8_727272_bu {font-family:arial,verdana,helvetica, ms sans serif; font-size:8pt; color:#727272; font-weight:bold;}
+A.v8_4479AF_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#4479AF; text-decoration:none; font-weight:bold;}
+A.v8_d7d7d7_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:8pt; color:#d7d7d7; text-decoration:none; font-weight:bold;}
+
+A.a9blb {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.a9blb:hover {color:#0033ff;}
+A.a9red {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#cc0000; text-decoration: none;}
+A.a9redb {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#cc0000; text-decoration: none; font-weight:bold;}
+A.a9red2 {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#cc0000; text-decoration: none; background-color:#E0E0E0;}
+A.a9red2:hover {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#cc0000; text-decoration:underline; font-weight:normal; background-color:#f0f0f0;}
+A.a9wtb {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+A.a9wtbu {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#ffffff; font-weight:bold;}
+A.a9wtb:hover {color:#cccccc;}
+A.a9bl {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#000000; text-decoration:none;}
+A.a9blbu {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#000000; font-weight:bold;}
+A.a9blb:hover {color:#aaaaaa;}
+A.a9_9999FF_b {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#FFFFFF; background-color:#9999FF; font-weight:bold; text-decoration:none;}
+A.a9_9999FF_b:hover {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#FFFFFF; background-color:#333399; font-weight:bold;}
+A.a9_333399_b {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#FFFFFF; background-color:#333399; font-weight:bold; text-decoration:none;}
+A.a9_333399_b:hover {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#FFFFFF; background-color:#9999FF; font-weight:bold;}
+A.a9_9999FF_b1 {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#9999FF; font-weight:bold;}
+A.a9_9999FF_b1:hover {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#9999FF; font-weight:bold; text-decoration:none;}
+A.a9_333399_b1 {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#333399; font-weight:bold;}
+A.a9_333399_b1:hover {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#333399; font-weight:bold; text-decoration:none;}
+A.v9wt {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#ffffff; text-decoration:none;}
+A.v9redb {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.v9redb:hover {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#cc0000; text-decoration:underline; font-weight:bold;}
+.v9blueb {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#003366; text-decoration:none; font-weight:bold;}
+.v9blueb:hover {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#003366; text-decoration:underline; font-weight:bold;}
+A.v9_FF6600b {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#FF6600; text-decoration:none; font-weight:bold;}
+A.v9_FF6600b:hover {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#FF6600; text-decoration:underline; font-weight:bold;}FF6600
+A.v9wtb {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+A.a9_727272_bu {font-family:arial,verdana,helvetica, ms sans serif; font-size:9pt; color:#727272; font-weight:bold;}
+
+
+A.a10bl {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000; text-decoration:none;}
+A.a10blu {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000;}
+A.a10blb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.a10blb:hover {color:#0033ff;}
+A.a10blbu {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000; font-weight:bold;}
+A.a10blb_bg_D9D8D8 {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000; background-color:#D9D8D8; text-decoration:none; font-weight:bold;}
+A.a10blb_bg_D9D8D8:hover {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.a10greyb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ABABAB; text-decoration:none; font-weight:bold;}
+A.a10dkgreyb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#1c3b67; text-decoration:none; font-weight:bold;}
+A.a10_F88F93_b {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#F88F93; text-decoration:none; font-weight:bold;}
+A.a10_3366cc {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#3366cc; text-decoration:none;}
+A.a10_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#3366cc; text-decoration:none; font-weight:bold;}
+A.a10_3366cc_u {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#3366cc;}
+A.a10_3366cc_bu {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#3366cc; font-weight:bold;}
+A.a10_cdcdcd_bu {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cdcdcd; font-weight:bold;}
+A.a10_1c3b67_b {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#1c3b67; text-decoration:none; font-weight:bold;}
+A.a10_1c3b67_bu {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#1c3b67; font-weight:bold;}
+A.a10_6903d9_u {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#6903d9;}
+A.a10red {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration:none;}
+A.a10redb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.a10redu {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000;}
+A.a10redbu {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; font-weight:bold;}
+A.a10red2 {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration: none; background-color:#E0E0E0;}
+A.a10red2:hover {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration:underline; font-weight:normal; background-color:#f0f0f0;}
+A.a10wt {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; text-decoration:none;}
+A.a10wtb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+A.a10wtb_u {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; text-decoration:underline; font-weight:bold;}
+A.a10wtb_u:hover {color:#cccccc; text-decoration:none;}
+A.a10wtbu {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; font-weight:bold;}
+A.ta10bl {font-family:tahoma, arial, helvetica, ms sans serif; font-size:10pt; color:#000000; text-decoration:none;}
+A.v10wt {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; text-decoration:none;}
+A.v10wtb {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+A.v10wtb_redbg {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; text-decoration:none; font-weight:bold; background-color:#cc0000;}
+A.v10wtb_redbg:hover {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration:none; font-weight:bold; background-color:#cccccc;}
+A.v10bl {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#000000; text-decoration:none; font-weight:normal;}
+A.v10blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.v10blue {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#0000ff; text-decoration:underline; font-weight:normal;}
+A.v10blue:hover {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#0000ff; text-decoration:none; font-weight:normal;}
+A.v10blueb {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#0000ff; text-decoration:none; font-weight:bold;}
+A.v10red {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration:underline; font-weight:normal;}
+A.v10red:hover {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration:none; font-weight:normal;}
+A.v10redb {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.v10redbu {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; font-weight:bold;}
+A.v10blbu {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#000000; font-weight:bold;}
+A.v10_702B89 {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#702B89; text-decoration:none;}
+A.v10_702B89_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#702B89; text-decoration:none; font-weight:bold;}
+A.v10_ABA000 {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#ABA000; text-decoration:none;}
+A.v10_ABA000_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#ABA000; text-decoration:none; font-weight:bold;}
+A.v10_2E3192{font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#2E3192; text-decoration:none;}
+A.v10_2E3192_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#2E3192; text-decoration:none; font-weight:bold;}
+A.v10_B92B5E_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#B92B5E; text-decoration:none; font-weight:bold;}
+A.v10_929497_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#929497; text-decoration:none; font-weight:bold;}
+A.v10_B4D674_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#B4D674; text-decoration:none; font-weight:bold;}
+A.v10_48D1CC_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#48D1CC; text-decoration:none; font-weight:bold;}
+A.v10_F0E68C_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#F0E68C; font-weight:bold;}
+A.v10_D2691E_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#D2691E; font-weight:bold;}
+A.v10_EE82EE_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#EE82EE; font-weight:bold;}
+A.v10_FA8072_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#FA8072; font-weight:bold;}
+A.v10_00ff00_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#00ff00; font-weight:bold;}
+A.v10_ffff00_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#ffff00; font-weight:bold;}
+A.v10_11703A_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#11703A; text-decoration:none; font-weight:bold;}
+A.v10_666666_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#666666; text-decoration:none; font-weight:bold;}
+A.v10_13D813_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#13D813; text-decoration:none; font-weight:bold;}
+A.v10_1DC61D_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#1DC61D; text-decoration:none; font-weight:bold;}
+A.v10_727272_u {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#727272;}
+A.v10_727272_b {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#727272; text-decoration:none; font-weight:bold;}
+A.v10_727272_bu {font-family:verdana,arial, helvetica, ms sans serif; font-size:10pt; color:#727272; font-weight:bold;}
+A.a10_727272_u {font-family:arial,verdana, helvetica, ms sans serif; font-size:10pt; color:#727272;}
+A.a10_727272_b {font-family:arial,verdana,helvetica, ms sans serif; font-size:10pt; color:#727272; text-decoration:none; font-weight:bold;}
+A.a10_727272_bu {font-family:arial,verdana,helvetica, ms sans serif; font-size:10pt; color:#727272; font-weight:bold;}
+A.v10_4479AF_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#4479AF; font-weight:bold;}
+A.v10_D71921_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#D71921; font-weight:bold; text-decoration:none; }
+
+A.a12bl {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#000000; text-decoration:none;}
+A.a12blb {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.a12blu {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#000000;}
+A.a12blb_bg_D9D8D8 {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#000000; background-color:#D9D8D8; text-decoration:none; font-weight:bold;}
+A.a12blb_bg_D9D8D8:hover {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.a12_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#3366cc; text-decoration:none; font-weight:bold;}
+A.a12_1c3b67_b {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#1c3b67; text-decoration:none; font-weight:bold;}
+A.a12red {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#cc0000; text-decoration:none;}
+A.a12redb {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.a12wt {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#ffffff; text-decoration:none;}
+A.a12wtb {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+A.v12blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.v12wtb {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+A.v12_D71921_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#D71921; text-decoration:none; font-weight:bold;}
+
+A.a14blb {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.a14blb_bg_D9D8D8 {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#000000; background-color:#D9D8D8; text-decoration:none; font-weight:bold;}
+A.a14blb_bg_D9D8D8:hover {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.a14redb {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#cc0000; text-decoration:none; font-weight:bold;}
+A.a14_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#3366cc; text-decoration:none; font-weight:bold;}
+
+A.t16redb {font-family:times new roman, ms sans serif; font-size:16pt; color:#cc0000; font-weight:bold; text-decoration:none;}
+A.v16blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:16pt; color:#000000; text-decoration:none; font-weight:bold;}
+
+A.a8bl_3366cc {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000; text-decoration:none;}
+A.a8bl_3366cc:hover {color:#3366cc;}
+A.a8blb_3366cc {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.a8blb_3366cc:hover {color:#3366cc;}
+A.a10bl_3366cc {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000; text-decoration:none;}
+A.a10bl_3366cc:hover {color:#3366cc;}
+A.a10blb_3366cc {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000; text-decoration:none; font-weight:bold;}
+A.a10blb_3366cc:hover {color:#3366cc;}
+
+#celeblist {line-height: 6pt;}
+
+#red {color:#cc0000;}
+
+#a6bl {font-family:arial, helvetica, ms sans serif; font-size:6pt; color:#000000;}
+#a6wt {font-family:arial, helvetica, ms sans serif; font-size:6pt; color:#ffffff;}
+#v6bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:6pt; color:#000000;}
+#v6gr {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:6pt; color:#666666;}
+
+
+#a7bl {font-family:arial, helvetica, ms sans serif; font-size:7pt; color:#000000;}
+#a7wt {font-family:arial, helvetica, ms sans serif; font-size:7pt; color:#ffffff;}
+#v7bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:7pt; color:#000000;}
+
+#a8bl {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000;}
+
+.a8bl_just {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000; text-align:justify;}
+
+#a8blb {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000; font-weight:bold;}
+#a8blu {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000;}
+#a8_3366cc {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#3366cc;}
+#a8_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#3366cc; font-weight:bold;}
+#a8red {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000;}
+#a8redb {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; font-weight:bold;}
+#a8wt {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff;}
+#a8wtb {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff; font-weight:bold;}
+#a8yb {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#f5f515; font-weight:bold;}
+#a8grey {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#ABABAB;}
+#a8_F88F93 {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#F88F93;}
+#v8bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#000000;}
+#v8blb {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#000000; font-weight:bold;}
+#v8redb {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#cc0000; font-weight:bold;}
+#v8wt {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff;}
+#v8wtb {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#ffffff; font-weight:bold;}
+#v8grb {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#666666; font-weight:bold;}
+#v8gr {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#666666;}
+#v8ltgr {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#cccccc;}
+#v8_702B89 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#702B89;}
+#v8_702B89_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#702B89; font-weight:bold;}
+#v8_7AC802 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#7AC802;}
+#v8_7AC802_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#7AC802; font-weight:bold;}
+#v8_2E3192 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#2E3192;}
+#v8_2E3192_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#2E3192; font-weight:bold;}
+#v8_ABA000 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#ABA000;}
+#v8_ABA000_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#ABA000; font-weight:bold;}
+#v8_13D813 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:8pt; color:#13D813;}
+#v8_13D813_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#13D813; font-weight:bold;}
+#v8_4479AF_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:8pt; color:#4479AF; font-weight:bold;}
+
+#a9bl {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#000000;}
+#a9blb {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#000000; font-weight:bold;}
+#a9red {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#cc0000;}
+#a9redb {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#cc0000; font-weight:bold;}
+#a9wt {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#ffffff;}
+#a9wtb {font-family:arial, helvetica, ms sans serif; font-size:9pt; color:#ffffff; font-weight:bold;}
+#v9bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:9pt; color:#000000;}
+#v9blb {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:9pt; color:#000000; font-weight:bold;}
+#v9wt {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:9pt; color:#ffffff;}
+#v9wtb {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#ffffff; font-weight:bold;}
+#v9_FFFF99b {font-family:verdana,arial, helvetica, ms sans serif; font-size:9pt; color:#FFFF99; font-weight:bold;}
+
+#a10bl {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000;}
+#a10blb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000; font-weight:bold;}
+#a10_F88F93_b {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#F88F93; font-weight:bold;}
+#a10_3366cc {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#3366cc;}
+#a10_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#3366cc; font-weight:bold;}
+#ta10_3366cc {font-family:tahoma, arial, helvetica, ms sans serif; font-size:10pt; color:#3366cc;}
+#ta10_3366cc_b {font-family:tahoma, arial, helvetica, ms sans serif; font-size:10pt; color:#3366cc; font-weight:bold;}
+#ta10_cc0000_b {font-family:tahoma, arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; font-weight:bold;}
+#a10_1c3b67 {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#1c3b67;}
+#a10_1c3b67_b {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#1c3b67; font-weight:bold;}
+#a10red {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000;}
+#a10redb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; font-weight:bold;}
+#a10wt {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff;}
+#a10wtb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; font-weight:bold;}
+#a10grey {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ABABAB;}
+#a10greyb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ABABAB; font-weight:bold;}
+#a10dkgrey {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#616161;}
+#a10dkgreyb {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#616161; font-weight:bold;}
+#a10_ec008c_b {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#ec008c; font-weight:bold;}
+#a10_FFE303_b {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#FFE303; font-weight:bold;}
+#v10bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#000000;}
+#v10blb {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#000000; font-weight:bold;}
+#v10wt {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff;}
+#v10wtb {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#ffffff; font-weight:bold;}
+#v10grb {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#666666; font-weight:bold;}
+#v10gr {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#666666;}
+#v10_702B89 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#702B89;}
+#v10_702B89_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#702B89; font-weight:bold;}
+#v10_7AC802 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#7AC802;}
+#v10_7AC802_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#7AC802; font-weight:bold;}
+#v10_2E3192 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#2E3192;}
+#v10_2E3192_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#2E3192; font-weight:bold;}
+#v10_ABA000 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#ABA000;}
+#v10_ABA000_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#ABA000; font-weight:bold;}
+#v10_DEB600 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:10pt; color:#DEB600;}
+#v10_DEB600_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#DEB600; font-weight:bold;}
+#v10_B92B5E_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#B92B5E; font-weight:bold;}
+#v10_929497_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#929497; font-weight:bold;}
+#v10_B4D674_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#B4D674; font-weight:bold;}
+#v10_48D1CC_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#48D1CC; font-weight:bold;}
+#v10_F0E68C_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#F0E68C; font-weight:bold;}
+#v10_D2691E_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#D2691E; font-weight:bold;}
+#v10_EE82EE_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#EE82EE; font-weight:bold;}
+#v10_FA8072_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#FA8072; font-weight:bold;}
+#v10_00ff00_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#00ff00; font-weight:bold;}
+#v10_ffff00_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#ffff00; font-weight:bold;}
+#v10_11703A_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#11703A; font-weight:bold;}
+#v10_666666_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#666666; font-weight:bold;}
+#v10_13D813_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#13D813; font-weight:bold;}
+#v10redb {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#cc0000; font-weight:bold;}
+#v10_1DC61D_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#1DC61D; font-weight:bold;}
+#v10_4479AF_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#4479AF; font-weight:bold;}
+#v10_D71921_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:10pt; color:#D71921; font-weight:bold;}
+
+
+
+#a11wtb {font-family:arial, helvetica, ms sans serif; font-size:11pt; color:#ffffff; font-weight:bold;}
+#v11bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:11pt; color:#000000;}
+#v11wtb {font-family:verdana, arial, helvetica, ms sans serif; font-size:11pt; color:#ffffff; font-weight:bold;}
+
+#a12bl {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#000000;}
+#a12blb {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#000000; font-weight:bold;}
+#a12gray {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#666666;}
+#a12grayb {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#333333; font-weight:bold;}
+#a12_3366cc {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#3366cc;}
+#a12_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#3366cc; font-weight:bold;}
+#a12_3D31AD {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#3D31AD;}
+#a12_3D31AD_b {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#3D31AD; font-weight:bold;}
+#a12_1c3b67 {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#1c3b67;}
+#a12_1c3b67_b {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#1c3b67; font-weight:bold;}
+#a12_D8C64F  {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#D8C64F;}
+#a12red {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#cc0000;}
+#a12redb {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#cc0000; font-weight:bold;}
+#a12wt {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#ffffff;}
+#a12wtb {font-family:arial, helvetica, ms sans serif; font-size:12pt; color:#ffffff; font-weight:bold;}
+#t12bl {font-family:times new roman, verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#000000;}
+#ta12wtb {font-family:tahoma, verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#ffffff; font-weight:bold;}
+#v12bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:12pt; color:#000000;}
+#v12blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#000000; font-weight:bold;}
+#v12wt {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#ffffff;}
+#v12wtb {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#ffffff; font-weight:bold;}
+#v12_3366cc {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#3366cc;}
+#v12_3366cc_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#3366cc; font-weight:bold;}
+#v12_702B89 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:12pt; color:#702B89;}
+#v12_702B89_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#702B89; font-weight:bold;}
+#v12_7AC802 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:12pt; color:#7AC802;}
+#v12_7AC802_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#7AC802; font-weight:bold;}
+#v12_2E3192 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:12pt; color:#2E3192;}
+#v12_2E3192_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#2E3192; font-weight:bold;}
+#v12_ABA000 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:12pt; color:#ABA000;}
+#v12_ABA000_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#ABA000; font-weight:bold;}
+#v12_DEB600 {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:12pt; color:#DEB600;}
+#v12_DEB600_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#DEB600; font-weight:bold;}
+#v12_B92B5E_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#B92B5E; font-weight:bold;}
+#v12_929497_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#929497; font-weight:bold;}
+#v12_B4D674_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#B4D674; font-weight:bold;}
+#v12_48D1CC_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#48D1CC; font-weight:bold;}
+#v12_F0E68C_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#F0E68C; font-weight:bold;}
+#v12_D2691E_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#D2691E; font-weight:bold;}
+#v12_EE82EE_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#EE82EE; font-weight:bold;}
+#v12_FA8072_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#FA8072; font-weight:bold;}
+#v12_00ff00_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#00ff00; font-weight:bold;}
+#v12_ffff00_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#ffff00; font-weight:bold;}
+#v12_11703A_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#11703A; font-weight:bold;}
+#v12_666666_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#666666; font-weight:bold;}
+#v12_13D813_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#13D813; font-weight:bold;}
+#v12_1DC61D_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#1DC61D; font-weight:bold;}
+#v12_4479AF_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#4479AF; font-weight:bold;}
+#v12_D71921_b {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#D71921; font-weight:bold;}
+
+#v12redb {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#cc0000; font-weight:bold;}
+
+#v13bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:13pt; color:#000000;}
+
+#a14bl {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#000000;}
+#a14blb {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#000000; font-weight:bold;}
+#a14redb {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#cc0000; font-weight:bold;}
+#a14_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#3366cc; font-weight:bold;}
+#v14_E8D558_b {font-family:arial, helvetica, ms sans serif; font-size:14pt; color:#D8C64F; font-weight:bold;}
+#h14redb {font-family:helvetica, ms sans serif; font-size:14pt; color:#cc0000; font-weight:bold;} 
+#v14blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:14pt; color:#000000; text-decoration:none; font-weight:bold;}
+#v14bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:14pt; color:#000000;}
+#v14wtb {font-family:verdana, arial, helvetica, ms sans serif; font-size:14pt; color:#ffffff; text-decoration:none; font-weight:bold;}
+#v14wt {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:14pt; color:#ffffff;}
+
+#v15bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:15pt; color:#000000;}
+
+#a16bl {font-family:arial, helvetica, ms sans serif; font-size:16pt; color:#000000;}
+#a16blb {font-family:arial, helvetica, ms sans serif; font-size:16pt; color:#000000; font-weight:bold;}
+#a16_3366cc_b {font-family:arial, helvetica, ms sans serif; font-size:16pt; color:#3366cc; font-weight:bold;}
+#a16_3D31AD_b {font-family:arial, helvetica, ms sans serif; font-size:16pt; color:#3D31AD; font-weight:bold;}
+#v16bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:16pt; color:#000000;}
+#v16blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:16pt; color:#000000; font-weight:bold;}
+#v16wtb {font-family:verdana, arial, helvetica, ms sans serif; font-size:16pt; color:#ffffff; font-weight:bold;}
+
+#v17bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:17pt; color:#000000;}
+
+#t18_D8C64F_b  {font-family:times new roman, arial, helvetica, ms sans serif; font-size:18pt; color:#D8C64F; font-weight:bold;}
+#v18blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:18pt; color:#000000; font-weight:bold;}
+#v18redb {font-family:verdana, arial, helvetica, ms sans serif; font-size:18pt; color:#cc0000; font-weight:bold;}
+#v18bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:18pt; color:#000000;}
+
+#v19bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:19pt; color:#000000;}
+
+#tb20bl {font-family:officina,Trebuchet MS,verdana,tahoma,arial, helvetica, ms sans serif; font-size:20pt; color:#000000;}
+#tb20blb {font-family:Trebuchet MS,verdana, arial, helvetica, ms sans serif; font-size:20pt; color:#000000; font-weight:bold;}
+
+#ab20bl {font-family:arial black,Trebuchet MS,verdana,tahoma,arial, helvetica, ms sans serif; font-size:20pt; color:#000000;}
+#ab20blb {font-family:arial black,verdana, arial, helvetica, ms sans serif; font-size:20pt; color:#000000; font-weight:bold;}
+
+#v20bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:20pt; color:#000000;}
+#v20blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:20pt; color:#000000; font-weight:bold;}
+
+#v21bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:21pt; color:#000000;}
+#v21blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:21pt; color:#000000; font-weight:bold;}
+
+#v22bl {font-family:verdana,tahoma,arial, helvetica, ms sans serif; font-size:22pt; color:#000000;}
+#v22blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:22pt; color:#000000; font-weight:bold;}
+
+#v24blb {font-family:verdana, arial, helvetica, ms sans serif; font-size:24pt; color:#000000; font-weight:bold;}
+#v24wtb {font-family:verdana, arial, helvetica, ms sans serif; font-size:24pt; color:#ffffff; font-weight:bold;}
+
+#lnht11 {line-height:8pt;}
+
+#lnht15 {line-height:25pt;}
+
+#error { background-color: #ffff99; }
+.error {
+    background-color: #ffff99;
+}
+
+h1 {font-family:verdana, arial, helvetica, ms sans serif; font-size:18pt; color:#000000; font-weight:bold; margin-bottom:-10px}
+h2 {font-family:verdana, arial, helvetica, ms sans serif; font-size:14pt; color:#000000; font-weight:normal; margin:0;}
+h3 {font-family:arial, helvetica, ms sans serif; font-size:10pt; color:#000000; font-weight:bold; margin:0;}
+h4 {font-family:verdana, arial, helvetica, ms sans serif; font-size:12pt; color:#000000; font-weight:bold; margin:0;}
+
+
+
+input.a10bl_grey {font-family: arial; font-size: 10pt; border-color: 000000; border-style: inset; border-width: 1px; color: 000000;}
+input.a8bl_grey {font-family: arial; font-size: 8pt; border-color: 000000; border-style: inset; border-width: 1px; color: 000000;}
+input.v8bl_grey {font-family: verdana,arial; font-size: 8pt; border-color: 000000; border-style: inset; border-width: 1px; color: 000000;}
+input.a6bl_grey {font-family: arial; font-size: 6pt; border-color: 000000; border-style: inset; border-width: 1px; color: 000000;}
+input.v8bl_gray {font-family: verdana,arial; font-size: 8pt; border-top:#000000; border-left:#000000; border-right:#666666; border-bottom:#666666; border-style: inset; border-width: 1px; color:#000000;}
+
+#f.droplist {height: 55px; margin:2px 0 0 0; border: 1px solid #999; padding: 0; font-size: 1em;}
+#box_f.locationlist {margin:0px 0 0 0; border: 1px solid #999; padding: 0; font-size: 0.78em;}
+#box_f2.locationlist {margin:0px 0 0 0; border: 1px solid #999; padding: 0; font-size: 0.5em;}
+
+input.file2 {
+    font-family : Trebuchet MS;
+    font-size : 9pt;
+    font-weight : normal;
+    background-color : grey;
+    border-color : 000000;
+    border-style : inset;
+    border-width : 1px;
+    color : 000000;
+	width : 150px;
+}
+
+input.but_3366cc {
+    font-family : Arial;
+    color : ffffff;
+    font-size : 10pt;
+    font-weight : bold;
+    background-color : 3366cc;
+    border-color : 000000;
+    border-style : inset;
+    border-width : 1px;
+}
+
+select.drive { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px} 
+
+.iTt{
+    FONT-FAMILY:       Verdana, Arial, Helvetica;
+    FONT-SIZE:         11px;
+    FONT-STYLE:        normal;
+    FONT-WEIGHT:       normal;
+    COLOR:             black;
+    BACKGROUND-COLOR:  lightyellow;
+    BORDER:            black 1px solid;
+    PADDING:           2px;
+}
+
+.b_666666 {border:#666666 1px solid;}
+.b_333333 {border:#333333 1px solid;}
+.b_000000 {border:#000000 1px solid;}
+.b_redshades {border-top:#cc0000; border-left:#cc0000; border-right:#990000; border-bottom:#990000; border-width:1px solid;}
+.b_grayshades {border-top:#cccccc 1px solid; border-left:#cccccc 1px solid; border-right:#999999 1px solid; border-bottom:#999999 1px solid;}
+
+.lead {
+	padding-top: 3px;
+}
+
+.hedcap {
+	text-transform: capitalize;
+}
+
+
+.brd{border-width: 0px 0px 0px 0px;border-style: none;} 
+#xz{} 
+
+#layer_up {font-family:arial, helvetica, ms sans serif; font-size:8pt; color:#000000; }
+
+.collapsed .dropSections  { visibility: hidden;}
+.expanded  { visibility: visible;}
+.dropSections { z-index: 2000; position: relative; width: 1px; overflow: visible; right: 345px;}
+.dropSections .dropItemHi { background-color: #7AC802; color: #FFF;}
+.dropSections a { color: #ffffff; text-decoration: none;}
+.dropSections a:hover { color: #000000;}
+.dropSectionsMenu { line-height: 1pt; position: absolute; top: 0px; width: 520px; clear: both; background-color: #cccccc; padding-top: 0px; padding-left: 3px;  padding-right: 3px; padding-bottom: 0px; border-bottom: 1px solid #cc0000; border-right: 1px solid #cc0000; border-top: 1px solid #cc0000; border-left: 1px solid #cc0000; z-index: 800;}
+.dropSectionsMenu .linkSections, .dropSectionsMenu .linkSections a { font-family: verdana; font-size: 8pt; color: #000000; position: relative; cursor: default; voice-family: "\"}\""; voice-family: inherit; /* remove on final */ cursor: pointer; /* remove on final */}
+.dropSectionsMenu .linkSectionsb, .dropSectionsMenu .linkSectionsb a { font-family: verdana; font-size: 8pt;  font-weight: bold; color: #000000; position: relative; cursor: default; voice-family: "\"}\""; voice-family: inherit; /* remove on final */ cursor: pointer; /* remove on final */}
+.dropSectionsMenu .linkSections a:hover, .dropSectionsMenu .linkSectionsb a:hover { color: #cc0000;}
+
+.space {line-height: 10pt;}
+
+-->
+
+
+
+
